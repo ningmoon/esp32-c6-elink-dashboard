@@ -1,0 +1,27 @@
+ESP32-C6 E-Paper Dashboard
+Copyright 2026 ningmoon
+
+The original project code is licensed under the MIT License; see LICENSE.
+Original project documentation is provided under the MIT License. For hardware
+photos in docs/ photographed by ningmoon, that license applies only to elements
+created by and actually owned by ningmoon.
+AI-assisted decorative screen content visible in prototype photos is included
+for demonstration only. It is not separately distributed as a bitmap asset and
+is not claimed as exclusively copyrighted material under the project license.
+Third-party dependencies are not vendored and retain their respective licenses.
+
+Weather data are fetched at runtime from Open-Meteo.com and are not part of
+this repository. Open-Meteo API data are provided under CC BY 4.0 and require
+attribution. Its Free/Open-Access API is limited to non-commercial use under
+the provider's current terms. See:
+https://open-meteo.com/en/licence
+https://open-meteo.com/en/terms
+
+The firmware uses Adafruit GFX's built-in font for ASCII text (Adafruit
+Industries, BSD license). Chinese TODO text uses the WenQuanYi bitmap font
+u8g2_font_wqy16_t_gb2312 distributed with U8g2 for Adafruit GFX.
+WenQuanYi Project Board of Trustees and Qianqian Fang, (C) 2004-2010;
+GPL v2 with font embedding exception. The font is not licensed under this
+project's MIT license. See:
+https://github.com/olikraus/u8g2/wiki/fntgrpwqy
+https://github.com/olikraus/U8g2_for_Adafruit_GFX/blob/master/LICENSE
